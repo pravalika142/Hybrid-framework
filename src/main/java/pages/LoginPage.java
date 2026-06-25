@@ -8,14 +8,12 @@ import utilities.ConfigReader;
 import java.time.Duration;
 
 /**
- * LoginPage - Page Object Model (POM) for OrangeHRM Login Page
- *
+ * LoginPage - Page Object Model (POM) for OrangeHRM Login
  * POM Benefits:
  * 1. Centralized locators - easy to maintain
  * 2. Reusable methods - used across multiple test classes
  * 3. Better readability - step definitions become cleaner
  * 4. Easy updates - change locators in one place only
- *
  * Structure:
  * - Locators (By objects) - Web element identifiers
  * - WebDriver & WebDriverWait - For browser interaction & waits

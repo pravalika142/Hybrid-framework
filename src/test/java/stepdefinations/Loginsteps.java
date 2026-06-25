@@ -1,5 +1,6 @@
 package stepdefinations;
 
+import base.BaseTest;
 import io.cucumber.java.en.*;
 import io.cucumber.datatable.DataTable;
 import org.testng.Assert;
@@ -8,15 +9,14 @@ import pages.LoginPage;
 import java.util.Map;
 
 /**
- * LoginSteps - Step Definitions using Page Object Model
- *
+ * LoginSteps - Step Definitions using Page Object Mode
  * Improvements over direct Selenium code:
  * 1. Clean and readable steps
  * 2. Locators hidden in LoginPage
  * 3. Easy to maintain - change LoginPage, not all tests
  * 4. Reusable across multiple test classes
  */
-public class Loginsteps {
+public class Loginsteps extends BaseTest {
 
     private LoginPage loginPage;
 
